@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView mLocationTextView;
     private Button mLocationButton;
-    private final static int REQUEST_LOCATION_PERMISSION=1;
+    private final static int REQUEST_LOCATION_PERMISSION = 1;
     private FusedLocationProviderClient mFusedLocationClient;
 
     @Override
