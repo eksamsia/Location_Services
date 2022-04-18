@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         switch (requestCode) {
             case REQUEST_LOCATION_PERMISSION:
                 if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED){
-
+                    getLocation();
                 } else {
                     Toast.makeText(this, "Permission Denied", Toast.LENGTH_SHORT).show();
                 }
